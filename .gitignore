@@ -1,0 +1,20 @@
+# Ignore all target directories recursively (build output)
+**/target/
+
+# Ignore debug directories recursively
+**/debug/
+
+# Include Cargo.lock (recommended for executable projects, remove this line if it's a library)
+Cargo.lock
+
+# Ignore Rust backup files anywhere
+**/*.rs.bk
+
+# Ignore MSVC Windows debug symbols
+*.pdb
+
+# Ignore macOS system files
+**/.DS_Store
+
+# Uncomment if using JetBrains IDEs (IntelliJ IDEA, CLion, etc.)
+#.idea/
